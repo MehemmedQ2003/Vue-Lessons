@@ -2,10 +2,10 @@ const app = Vue.createApp(
     {
         data() {
             return {
-                message: 'HTML' 
+                message: "HTML"
             }
         },
     }
 );
 
-app.mount('#frontend');
+app.mount("#frontend");
