@@ -1,3 +1,3 @@
 const app = Vue.createApp();
 
-app.mount('#frontend');
+app.mount("#frontend");
