@@ -17,12 +17,6 @@
 
     <section id="frontend">
         <h2>Input Event</h2>
-        <p>{{ counter }}</p>
-        <button class="btn btn-primary mx-2" v-on:click="increase(5)">Increase</button>
-        <button class="btn btn-danger mx-2" v-on:click="decrease(5)">Decrease</button>
-
-        <br>
-        <br>
         
         <input type="text" v-on:input="setName($event, 'Gardashov')" class="form-control my-3 border border-black">
         <p>Your name: {{ name }}</p>
