@@ -6,10 +6,6 @@ const app = Vue.createApp(
             }
         },
         methods: {
-
-            login() {
-                alert("Login");
-            },
             increase(num) {
                 this.counter += num;
             },
