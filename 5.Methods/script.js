@@ -8,7 +8,10 @@ const app = Vue.createApp(
         },
         methods: {
             ourGoal() {
-                return "Learn Vue js"
+                return "CSS"
+            },
+            sumOfCounters(count1, count2) {
+                return count1 + count2
             }
         },
     }
