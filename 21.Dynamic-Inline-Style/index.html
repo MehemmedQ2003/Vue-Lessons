@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21.Dynamic-Inline-Style</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+
+    <header>
+        <h1>Frontend Development</h1>
+    </header>
+
+    <section id="frontend">
+        <h2>Dynamic Inline Style</h2>
+        <div class="box" :style="{borderColor: firstBox ? 'blue' : 'red' }" @click="chooseBox('1')"></div>
+        <div class="box" :style="{borderColor: secondBox ? 'green' : 'yellow' }" @click="chooseBox('2')"></div>
+        <div class="box" :style="{borderColor: thirdBox ? 'teal' : 'orange' }" @click="chooseBox('3')"></div>
+    </section>
+
+    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+</html>
