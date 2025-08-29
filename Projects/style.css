@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    background-color: #268D58;
+    height: 50px;
+}
+
+.product {
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.product-info ul li, .product-info p {
+    font-size: 20px;
+    font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-bottom: 10px;
+}
+
+.color-box {
+    width: 40px;
+    height: 40px;
+    cursor: "pointer";
+    margin-right: 10px;
+}
+
+.cart {
+    margin-left: 15px;
+    border: 1px solid #268D58;
+    padding: 5px 20px;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #42b983;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:disabled {
+    background-color: #ccc;
+    color: black;
+    cursor: not-allowed;
+}
+
+.disabledButton {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
