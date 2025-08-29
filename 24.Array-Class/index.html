@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>20.DynamicStyle</title>
+    <title>24.Array-Class</title>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -16,10 +16,10 @@
     </header>
 
     <section id="frontend">
-        <h2>Dynamic Style</h2>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
+        <h2>Array Class</h2>
+        <div :class="['box', boxOneSelected]" @click="chooseBox('1')"></div>
+        <div :class="['box', boxTwoSelected]" @click="chooseBox('2')"></div>
+        <div :class="['box', boxThreeSelected]" @click="chooseBox('3')"></div>
     </section>
 
     <script src="script.js" defer></script>

@@ -44,3 +44,15 @@ header {
     border: 4px dashed grey;
     margin: 10px 0;
 }
+
+.selectedFirst{
+    border-color: blue !important;
+}
+
+.selectedSecond{
+    border-color: green !important;
+}
+
+.selectedThird{
+    border-color: teal !important;
+}
