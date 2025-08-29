@@ -6,6 +6,7 @@ const app = Vue.createApp(
             }
         },
         methods: {
+
             login() {
                 alert("Login");
             },
