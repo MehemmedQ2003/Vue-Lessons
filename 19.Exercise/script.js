@@ -17,17 +17,6 @@ const app = Vue.createApp(
             },
             decrease(num) {
                 this.counter -= num;
-            },
-            changeMessage() {
-                if (this.counter < 25) {
-                    return this.message = "Less than 25";
-                }
-                else if (this.counter == 25) {
-                    return this.message = "Equal to 25";
-                }
-                else {
-                    return this.message = "Greater than 25";
-                }
             }
         }
     }
